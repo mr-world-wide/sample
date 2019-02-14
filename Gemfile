@@ -17,6 +17,7 @@ gem 'jbuilder',     '2.7.0'
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
+  gem 'haml-rails', '>= 0.3.4', :group => :development
 end
 
 group :development do
