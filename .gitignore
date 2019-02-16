@@ -21,3 +21,10 @@
 /yarn-error.log
 
 .byebug_history
+
+# Ignore Spring files.
+/spring/*.pid
+
+#ignore workspace
+/.idea/workspace.xml
+
