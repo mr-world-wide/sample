@@ -40,6 +40,21 @@ module SessionsHelper
     cookies.permanent[:remember_token] = user.remember_token
   end
 
+  # returns true if the given user is the current user
+  def current_user?(user)
+    user == current_user
+  end
+  # redirect userot the url they were trying to access.
+  def redirect_back_or_(default)
+    redirect_to (session[:fowarding_url] || default)
+    session.delete(:fowarding_url)
+  end
+
+
+   #store the url the user was trying to access
+  def store_location
+    session[:fowarding_url] = request.original_url if request.get?
+  end
 
 
 
