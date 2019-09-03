@@ -19,12 +19,14 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
 
   test "should show user" do
     assert @user.valid?
+    @user.activate
     get user_path(@user.id)
     assert_response :success
     assert_template 'show'
   end
 
   test "View title should include users name" do
+    @user.activate
     get user_path(@user.id)
     assert_select "title", "#{@user.name} | Ruby on Rails Tutorial Sample App"
   end

@@ -78,6 +78,6 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test "user with out digest shouldn't be authenticated" do
-    assert_not @user.authenticated?('')
+    assert_not @user.authenticated?(:remember, '')
   end
 end
