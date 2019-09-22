@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91304fc0-f028-423d-abe9-f277a74508d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/password_resets/edit.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/password_resets/new.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -37,12 +48,15 @@
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,43 +66,43 @@
           <entry key="Procfile" value="1" />
           <entry key="erb" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="haml" value="44" />
+          <entry key="haml" value="50" />
           <entry key="js" value="2" />
           <entry key="lock" value="2" />
           <entry key="pid" value="1" />
-          <entry key="rb" value="114" />
+          <entry key="rb" value="136" />
           <entry key="scss" value="4" />
-          <entry key="yml" value="8" />
+          <entry key="yml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Haml" value="44" />
+          <entry key="Haml" value="50" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RHTML" value="3" />
-          <entry key="Ruby" value="122" />
+          <entry key="Ruby" value="144" />
           <entry key="SCSS" value="4" />
-          <entry key="YAML" value="8" />
+          <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="121" />
           <entry key="gitignore" value="28" />
-          <entry key="haml" value="4735" />
+          <entry key="haml" value="5793" />
           <entry key="js" value="6" />
-          <entry key="rb" value="18763" />
+          <entry key="rb" value="23719" />
           <entry key="scss" value="27" />
           <entry key="yml" value="369" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Haml" value="4735" />
+          <entry key="Haml" value="5793" />
           <entry key="JavaScript" value="6" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Ruby" value="18884" />
+          <entry key="Ruby" value="23840" />
           <entry key="SCSS" value="27" />
           <entry key="YAML" value="369" />
         </counts>
@@ -98,91 +112,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/account_activations_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="439">
+              <caret line="47" column="107" selection-start-line="47" selection-start-column="107" selection-end-line="47" selection-end-column="107" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20190905122630_add_reset_to_users.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2001">
-              <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="58">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+        <entry file="file://$PROJECT_DIR$/test/integration/password_resets_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="71" column="50" lean-forward="true" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+            <state relative-caret-position="767">
+              <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/integration/user_signup_test.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/password_resets/edit.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1189">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="58">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+        <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+            <state relative-caret-position="352">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/spring-2.0.2/lib/spring/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4843">
+              <caret line="167" column="11" selection-start-line="167" selection-start-column="11" selection-end-line="167" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/mailers/user_mailer_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -202,6 +207,9 @@
       <find>def auth</find>
       <find>auth</find>
       <find>mail</find>
+      <find>reset_to</find>
+      <find>vali</find>
+      <find>password_reset_e</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,16 +218,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/helpers/application_helper_test.rb" />
-        <option value="$PROJECT_DIR$/test/integration/site_layout_test.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190218034713_add_index_to_users_email.rb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_error_messages.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/users/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/users/show.html.haml" />
-        <option value="$PROJECT_DIR$/config/puma.rb" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/views/sessions/new.html.haml" />
         <option value="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
@@ -236,7 +235,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.haml" />
         <option value="$PROJECT_DIR$/test/integration/user_index_test.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190825214346_add_activation_fields.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
@@ -246,21 +244,31 @@
         <option value="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer_mailer/account_activation.html.haml" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" />
-        <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
-        <option value="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.haml" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.haml" />
-        <option value="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/test/integration/user_signup_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/account_activations_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/password_reset/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/password_resets_contoller.rb" />
+        <option value="$PROJECT_DIR$/app/views/sessions/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/password_resets/new.html.haml" />
+        <option value="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" />
+        <option value="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.haml" />
+        <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
+        <option value="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" />
+        <option value="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/password_resets/edit.rb" />
+        <option value="$PROJECT_DIR$/app/views/password_resets/edit.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/test/integration/password_resets_test.rb" />
       </list>
     </option>
   </component>
@@ -286,7 +294,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,7 +310,40 @@
               <item name="sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="mailers" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="password_resets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="sessions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sample" type="b2602c69:ProjectViewProjectNode" />
@@ -321,15 +361,22 @@
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;user&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;activate&#9;null&#9;null&#10;activat&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/account_activations_controller.rb&#10;session&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/sessions_controller.rb&#10;user_con&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;user.rb&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/models/user.rb&#10;users&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;account&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/account_activations_controller.rb&#10;sess&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/helpers/sessions_helper.rb&#10;add_a&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/db/migrate/20190825214346_add_activation_fields.rb&#10;authenticated?&#9;null&#9;null&#10;gem&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/Gemfile&#10;user_si&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/integration/user_signup_test.rb&#10;acc&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/account_activations_controller.rb&#10;user_test&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/models/user_test.rb&#10;session_&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/helpers/sessions_helper.rb&#10;is_logged_in?&#9;null&#9;null&#10;test&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/integration/user_signup_test.rb&#10;user_sign&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/integration/user_signup_test.rb&#10;act&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/user_mailer/account_activation.html.haml&#10;mail&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/user_mailer_test.rb&#10;acti&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/user_mailer/account_activation.html.haml&#10;mailer&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/user_mailer_test.rb&#10;route&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/config/routes.rb&#10;accou&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/user_mailer/account_activation.html.haml&#10;mai&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/mailers/user_mailer.rb&#10;contr&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;help&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/helpers/sessions_helper.rb&#10;routes&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/config/routes.rb&#10;user_cont&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;user &#9;null&#9;null&#10;user_sig&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/integration/user_signup_test.rb&#10;ac&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/user_mailer/account_activation.html.haml&#10;pre&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/previews/user_mailer_preview.rb&#10;user.yml&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/fixtures/users.yml&#10;fixture&#9;FILE&#9;file:///usr/lib/ruby/vendor_ruby/test/unit/fixture.rb&#10;tes&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/user_mailer_test.rb&#10;passwor&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/user_mailer/password_reset.html.haml&#10;preview&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/previews/user_mailer_preview.rb&#10;user_mai&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/user_mailer_test.rb&#10;authentication_token&#9;null&#9;null&#10;usermail&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/previews/user_mailer_preview.rb&#10;user_mail&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/previews/user_mailer_preview.rb&#10;environment&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/config/environments&#10;view&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/previews&#10;application_mai&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/mailers/application_mailer.rb&#10;applicationm&#9;null&#9;null&#10;u&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/users/_user.html.haml&#10;us&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/db/migrate/20190824184758_add_admin_to_users.rb" />
+    <property name="SearchEverywhereHistoryKey" value="create_reset&#9;null&#9;null&#10;test&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/integration/password_resets_test.rb&#10;reset&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/db/migrate/20190905122630_add_reset_to_users.rb&#10;reset_digest&#9;null&#9;null&#10;cont&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/password_resets_controller.rb&#10;u&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/models/user.rb&#10;user.rb&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/user_mailer_test.rb&#10;user.yml&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/fixtures/users.yml&#10;passw&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/password_resets_controller.rb&#10;migra&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/db/migrate&#10;user&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/models/user.rb&#10;views/&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views&#10;user_mai&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/user_mailer_test.rb&#10;pass&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/user_mailer/password_reset.text.haml&#10;user_maile&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/mailers/user_mailer.rb&#10;user_mail&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/previews/user_mailer_preview.rb&#10;con&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;co&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/password_resets_controller.rb&#10;res&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/password_resets_controller.rb&#10;addpass&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/db/migrate/20190218042355_add_password_digest_to_users.rb&#10;password_reset_con&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/password_resets_controller.rb&#10;session/new&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/sessions/new.html.haml&#10;route&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/config/routes.rb&#10;activate&#9;null&#9;null&#10;activat&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/account_activations_controller.rb&#10;session&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/sessions_controller.rb&#10;user_con&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;users&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;account&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/account_activations_controller.rb&#10;sess&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/helpers/sessions_helper.rb&#10;add_a&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/db/migrate/20190825214346_add_activation_fields.rb&#10;authenticated?&#9;null&#9;null&#10;gem&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/Gemfile&#10;user_si&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/integration/user_signup_test.rb&#10;acc&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/account_activations_controller.rb&#10;user_test&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/models/user_test.rb&#10;session_&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/helpers/sessions_helper.rb&#10;is_logged_in?&#9;null&#9;null&#10;user_sign&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/integration/user_signup_test.rb&#10;act&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/user_mailer/account_activation.html.haml&#10;mail&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/user_mailer_test.rb&#10;acti&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/user_mailer/account_activation.html.haml&#10;mailer&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/test/mailers/user_mailer_test.rb&#10;accou&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/views/user_mailer/account_activation.html.haml&#10;mai&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/mailers/user_mailer.rb&#10;contr&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;help&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/helpers/sessions_helper.rb&#10;routes&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/config/routes.rb&#10;user_cont&#9;FILE&#9;file:///home/josh/RubymineProjects/challenge/environment/sample/app/controllers/users_controller.rb&#10;user &#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -475,18 +522,21 @@
       <workItem from="1566762082101" duration="9041000" />
       <workItem from="1567133793230" duration="24887000" />
       <workItem from="1567395941773" duration="11399000" />
-      <workItem from="1567516353670" duration="95000" />
+      <workItem from="1567516353670" duration="25449000" />
+      <workItem from="1568203540354" duration="5303000" />
+      <workItem from="1569069346366" duration="2946000" />
+      <workItem from="1569182146995" duration="5274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173766000" />
+    <option name="totallyTimeSpent" value="212643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="13" width="3072" height="1788" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49955237" visible="true" weight="0.12977867" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49955237" visible="true" weight="0.19785379" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50044763" side_tool="true" weight="0.31254193" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -499,7 +549,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32097948" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24090007" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -514,76 +564,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/contact.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/help.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -608,21 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190218042355_add_password_digest_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/pids/server.pid" />
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/spring-2.0.2/lib/spring/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5336">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/users_edit_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
@@ -662,13 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190824184758_add_admin_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -721,31 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/password_reset.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/ruby/vendor_ruby/test/unit/fixture.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -756,38 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/mailers/user_mailer_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190825214346_add_activation_fields.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -812,31 +726,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2001">
           <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -856,8 +749,165 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="71" column="50" lean-forward="true" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+        <state relative-caret-position="288">
+          <caret line="63" column="51" lean-forward="true" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190218042355_add_password_digest_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190824184758_add_admin_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190825214346_add_activation_fields.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190217220913_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/password_reset.text.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/new/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/password_reset.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190905122630_add_reset_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/spring-2.0.2/lib/spring/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4843">
+          <caret line="167" column="11" selection-start-line="167" selection-start-column="11" selection-end-line="167" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mailers/user_mailer_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="47" column="107" selection-start-line="47" selection-start-column="107" selection-end-line="47" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/password_resets_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
         </state>
       </provider>
     </entry>

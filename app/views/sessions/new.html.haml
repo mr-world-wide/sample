@@ -8,6 +8,7 @@
       = f.label :email
       = f.email_field :email, class: 'form-control'
       = f.label :password
+      = link_to('Forgot Password', new_password_reset_path)
       = f.password_field :password, class: 'form-control'
       .form-group.row
         .form-check
@@ -15,3 +16,4 @@
           = f.label :remember_me, class: 'form-check-label', for: 'grid-check-1'
       = f.submit "Login", class: 'btn btn-primary'
     = link_to("Don't have an account, Sign Up", signup_path)
+

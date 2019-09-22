@@ -7,7 +7,7 @@ class User < ApplicationRecord
   validates :email, presence: true, length: {maximum: 250}, format: VALID_EMAIL_REGEX, uniqueness: {case_sensitive: false}
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
-  attr_accessor :remember_token, :activation_token
+  attr_accessor :remember_token, :activation_token, :reset_token
 
   def User.digest(string)
     cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
@@ -42,6 +42,20 @@ class User < ApplicationRecord
     update_attribute(:remember_digest, nil)
   end
 
+  def create_reset_digest
+    #the reset token doesn't need to be saved in memory.
+    self.reset_token = User.new_token
+    self.update_columns(password_reset_digest: User.digest(self.reset_token), reset_sent_at: Time.zone.now)
+  end
+
+  def send_password_reset
+    UserMailer.password_reset(self).deliver_now
+  end
+
+  def password_reset_expired?
+    reset_sent_at < 2.hours.ago #don't need self because it is implict
+  end
+
   private
 
   def downcase_email
@@ -52,4 +66,5 @@ class User < ApplicationRecord
     self.activation_token = User.new_token
     self.activation_digest = User.digest(activation_token)
   end
+
 end
