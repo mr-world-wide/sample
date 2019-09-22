@@ -1,5 +1,5 @@
 %h1 Enter your new password
-= form_for(@user, url: password_resets_url(params[:id]) ) do |f|
+= form_for(@user, url: password_reset_path(params[:id]) ) do |f|
   = render 'shared/error_messages'
 
   = hidden_field_tag(:email, @user.email)
