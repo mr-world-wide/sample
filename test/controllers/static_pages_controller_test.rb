@@ -5,7 +5,7 @@ require 'test_helper'
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
   setup do
-    @base_title = "Ruby on Rails Tutorial Sample App"
+    @base_title = "Bucket List App"
   end
 
   test "should get home" do

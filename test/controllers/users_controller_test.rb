@@ -28,7 +28,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   test "View title should include users name" do
     @user.activate
     get user_path(@user.id)
-    assert_select "title", "#{@user.name} | Ruby on Rails Tutorial Sample App"
+    assert_select "title", "#{@user.name} | Bucket List App"
   end
 
   test "Logout user should be redirect when editing profile" do
