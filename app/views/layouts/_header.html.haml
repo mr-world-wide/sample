@@ -1,10 +1,11 @@
 %header.navbar.navbar-fixed-top.navbar-inverse
   .container
-    = link_to "sample app", '#', id: "logo"
+    = link_to "Bucket List", '#', id: "logo"
     %nav
       %ul.nav.navbar-nav.nastartvbar-right
         %li= link_to "home", root_path
         %li= link_to "about", about_path
+        %li= link_to "Money", bucket_list_budgeting_path
         %li= link_to "help", help_path
         - if logged_in?
           %li= link_to "Users", users_path
