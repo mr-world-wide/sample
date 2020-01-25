@@ -3,10 +3,18 @@
     = link_to "Bucket List", '#', id: "logo"
     %nav
       %ul.nav.navbar-nav.nastartvbar-right
-        %li= link_to "home", root_path
-        %li= link_to "about", about_path
+        %li= link_to "Home", root_path
+        %li= link_to "About", about_path
+        %li.dropdown
+          %a.dropdown-toggle{href: "#", "data-toggle": "dropdown"}
+            Features
+            %b.caret
+          %ul.dropdown-menu
+            %li= link_to "Spending Prioritization", "#"
+            %li= link_to "Weekly Planning Board", "#"
+            %li= link_to "Long Term Horizons", "#"
         %li= link_to "Money", bucket_list_budgeting_path
-        %li= link_to "help", help_path
+        %li= link_to "Help", help_path
         - if logged_in?
           %li= link_to "Users", users_path
           %li.dropdown
