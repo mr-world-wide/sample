@@ -9,6 +9,8 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 section {
@@ -51,6 +53,9 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  text-align: left;
+  color: $gray-light;
+
 }
 
 
