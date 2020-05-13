@@ -17,7 +17,7 @@ gem 'jbuilder',     '2.7.0'
 gem 'haml-rails', '>= 0.3.4'
 gem 'bcrypt',         '3.1.12'
 gem 'faker',        '1.7.3'
-gem 'will_paginate', '3.1.6'
+gem 'will_paginate', '3.3.0'
 gem 'bootstrap-will_paginate',  '1.0.0'
 
 
