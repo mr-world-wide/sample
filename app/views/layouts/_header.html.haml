@@ -1,6 +1,6 @@
 %header.navbar.navbar-fixed-top.navbar-inverse
   .container
-    = link_to "Bucket List", '#', id: "logo"
+    = link_to "Dao Board", '#', id: "logo"
     %nav
       %ul.nav.navbar-nav.nastartvbar-right
         %li= link_to "Home", root_path
@@ -13,7 +13,6 @@
             %li= link_to "Spending Prioritization", "#"
             %li= link_to "Weekly Planning Board", "#"
             %li= link_to "Long Term Horizons", "#"
-        %li= link_to "Money", bucket_list_budgeting_path
         %li= link_to "Help", help_path
         - if logged_in?
           %li= link_to "Users", users_path
