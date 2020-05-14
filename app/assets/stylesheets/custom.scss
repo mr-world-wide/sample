@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap');
+
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
@@ -8,13 +10,29 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
-  padding-top: 60px;
+  padding-top: 100px;
   padding-left: 60px;
   padding-right: 60px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section {
   overflow: auto;
+}
+
+.navbar {
+  box-shadow: -1px -3rem 1rem 2.8rem rgba(0, 0, 0, 0.25);
+}
+
+.nav-container {
+  display: flex;
+  padding: 10px 0px;
+  .logo {
+    max-height: 45px;
+  }
+}
+.home-hero {
+  background: transparent !important;
 }
 
 textarea {
@@ -32,6 +50,8 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
 }
 
 h1 {

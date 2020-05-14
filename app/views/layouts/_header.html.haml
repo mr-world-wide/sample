@@ -1,6 +1,6 @@
-%header.navbar.navbar-fixed-top.navbar-inverse
-  .container
-    = link_to "Dao Board", '#', id: "logo"
+%header.navbar.navbar-fixed-top
+  .container.nav-container
+    = link_to {image_tag('daoboard_logo.png', class: "logo")}
     %nav
       %ul.nav.navbar-nav.nastartvbar-right
         %li= link_to "Home", root_path
