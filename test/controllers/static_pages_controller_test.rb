@@ -5,7 +5,7 @@ require 'test_helper'
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
   setup do
-    @base_title = "Bucket List App"
+    @base_title = "Daoboard: The roundabout way to getting things done"
   end
 
   test "should get home" do
