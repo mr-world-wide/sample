@@ -10,14 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_05_122630) do
+ActiveRecord::Schema.define(version: 2020_05_18_235643) do
+
+  create_table "boards", force: :cascade do |t|
+    t.string "lists"
+    t.string "name"
+    t.integer "owner"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "rember_disgest"
     t.string "password_digest"
+    t.string "rember_digest"
     t.string "remember_digest"
     t.boolean "admin", default: false
     t.string "activation_digest"
