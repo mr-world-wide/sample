@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :boards
   get 'new/edit'
 
   get 'sessions/new'
