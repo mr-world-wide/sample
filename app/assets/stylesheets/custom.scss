@@ -1,4 +1,4 @@
-@import "bootstrap-sprockets";
+
 @import "bootstrap";
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap');
@@ -72,14 +72,14 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+  color: $gray-300;
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
   text-align: left;
-  color: $gray-light;
+  color: $gray-300;
 
 }
 
@@ -106,11 +106,11 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
-  color: $gray-light;
+  color: $gray-500;
   a {
-    color: $gray;
+    color: $gray-900;
     &:hover {
-      color: $gray-darker;
+      color: $gray-800;
     }
   }
   small {
@@ -200,9 +200,9 @@ input {
 }
 
 .field_with_errors {
-  @extend .has-error;
+  @extend .has-error !optional;
   .form-control {
-    color: $state-danger-text;
+    color: $danger;
   }
 }
 
@@ -214,6 +214,6 @@ input {
   li {
     overflow: auto;
     padding: 10px 0;
-    border-bottom: 1px solid $gray-lighter;
+    border-bottom: 1px solid $gray-300;
   }
 }
