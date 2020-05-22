@@ -11,6 +11,7 @@ gem 'bootsnap',   '1.4.5', require: false
 gem 'bcrypt', '3.1.13'
 gem "haml"
 gem 'will_paginate', '~> 3.3.0'
+gem 'bootstrap-sass', '3.4.1'
 
 
 group :development, :test do

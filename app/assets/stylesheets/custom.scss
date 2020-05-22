@@ -1,11 +1,17 @@
-
-@import "bootstrap";
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap');
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
+$gray-300: #d1d5da;
+$gray-500: #6a737d;
+$gray-800: #2f363d;
+$gray-900: #24292e;
+$danger: red;
+
+
 
 /* universal */
 
@@ -30,6 +36,7 @@ section {
   .logo {
     max-height: 45px;
   }
+
 }
 .home-hero {
   background: transparent !important;

@@ -1,8 +1,8 @@
 %header.navbar.navbar-fixed-top
   .container.nav-container
-    -#= link_to {image_pack_path('daoboard_logo.png', class: "logo")}
+    = link_to {image_tag('daoboard_logo.png', class: "logo")}
     %nav
-      %ul.nav.navbar-nav.nastartvbar-right
+      %ul.nav.navbar-nav.navbar-right
         %li= link_to "Home", root_path
         %li= link_to "About", about_path
         %li.dropdown
