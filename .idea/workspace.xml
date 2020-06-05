@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91304fc0-f028-423d-abe9-f277a74508d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/about.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/boards/show.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/boards/show.html.haml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -34,83 +31,27 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-883230430">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.44" value="1" />
-          <entry key="project.opened" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Gemfile" value="7" />
-          <entry key="Guardfile" value="1" />
-          <entry key="Procfile" value="1" />
-          <entry key="erb" value="3" />
-          <entry key="gitignore" value="1" />
-          <entry key="haml" value="57" />
-          <entry key="js" value="2" />
-          <entry key="lock" value="2" />
-          <entry key="pid" value="1" />
-          <entry key="rb" value="144" />
-          <entry key="scss" value="5" />
-          <entry key="yml" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Haml" value="57" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="RHTML" value="3" />
-          <entry key="Ruby" value="152" />
-          <entry key="SCSS" value="5" />
-          <entry key="YAML" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Gemfile" value="121" />
-          <entry key="gitignore" value="28" />
-          <entry key="haml" value="9902" />
-          <entry key="js" value="6" />
-          <entry key="rb" value="23812" />
-          <entry key="scss" value="27" />
-          <entry key="yml" value="369" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Haml" value="9902" />
-          <entry key="JavaScript" value="6" />
-          <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Ruby" value="23933" />
-          <entry key="SCSS" value="27" />
-          <entry key="YAML" value="369" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="75">
+              <caret line="5" column="88" selection-start-line="5" selection-start-column="88" selection-end-line="5" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -118,17 +59,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.haml">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="435">
+              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -136,62 +77,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="174">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/views/boards/_form.html.haml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/budget.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/views/boards/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1086">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/helpers/application_helper_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -223,12 +124,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190817211041_add_remeber_digest_to_users.rb" />
         <option value="$PROJECT_DIR$/app/views/users/edit.html.haml" />
         <option value="$PROJECT_DIR$/test/integration/users_edit_test.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.haml" />
         <option value="$PROJECT_DIR$/test/integration/user_index_test.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190825214346_add_activation_fields.rb" />
@@ -274,19 +173,10 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.haml" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/boards/show.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1709" />
@@ -299,80 +189,69 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daoboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daoboard" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daoboard" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daoboard" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daoboard" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="boards" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daoboard" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="sessions" type="462c0819:PsiDirectoryNode" />
+              <item name="webpacker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="static_pages" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daoboard" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daoboard" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daoboard" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="daoboard" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="packs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+              <item name="daoboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -407,8 +286,8 @@
   </component>
   <component name="RunManager" selected="Rails.Production: sample">
     <configuration name="Development: sample" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="sample" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -431,8 +310,8 @@
       <method v="2" />
     </configuration>
     <configuration name="Production: sample" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="sample" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -502,10 +381,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Rake.test: sample" />
-      <item itemvalue="Rake.spec: sample" />
       <item itemvalue="Rails.Production: sample" />
       <item itemvalue="Rails.Development: sample" />
+      <item itemvalue="Rake.test: sample" />
+      <item itemvalue="Rake.spec: sample" />
     </list>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
@@ -537,13 +416,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226099000" />
+    <option name="totallyTimeSpent" value="227862000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="129" y="13" width="3072" height="1788" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1640" y="-127" width="1640" height="1027" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49955237" visible="true" weight="0.20321931" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49955237" visible="true" weight="0.21276596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50044763" side_tool="true" weight="0.31254193" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -556,7 +434,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32958305" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24090007" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19833852" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -567,38 +445,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/integration/user_index_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/users_logic_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_user.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -627,13 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/ruby/vendor_ruby/test/unit/fixture.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/ruby/vendor_ruby/test/unit/fixture.rb" />
     <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -680,13 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1189">
           <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -891,8 +725,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -912,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="174">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -921,6 +755,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webpacker/src/stylesheets/users.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/boards/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
