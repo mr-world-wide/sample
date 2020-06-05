@@ -15,4 +15,8 @@ class StaticPagesController < ApplicationController
 
   end
 
+  def smart_goal_templates
+
+  end
+
 end
